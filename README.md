@@ -1,3 +1,3 @@
-Thoughts on all things data science.
+[Thoughts on all things data science.](https://haydn-martin.github.io/)
 
-[https://haydn-martin.github.io/]
+
