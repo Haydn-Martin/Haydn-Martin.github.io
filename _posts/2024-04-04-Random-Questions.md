@@ -45,9 +45,7 @@ observations from these sequences are very unlikely without this non-randomness:
 I can explain this process by stating that to get the next observation one must add 1 to the previous
 observation, and use this explanation to predict the next 4 values. If these next 4 observations occur, it
 seems more likely that my explanation of the process is correct, rather than the purely random
-explanation:
-
-P(My Explanation | [5, 6, 7, 8]) > P(Randomness | [5, 6, 7, 8])
+explanation.
 
 It's difficult to quantify/define this exactly, but it is real.
 
