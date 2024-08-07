@@ -92,6 +92,99 @@ some way in conjunctions with one another, this doesn not necessarily imply that
 
 ### Someone has to win
 
+Let's say we have a lots of data. A big sample size. Plenty of numbers.
+
+As discussed above, this is usually a good thing because we are usually more confident
+aggregate outcomes are true, and we can test the WORD of individual outcomes.
+
+But it comes with its own problems. When the sample size is large, extraordinary outcomes
+are likely to occur purely by chance.
+
+Three specific ways this annoys me:
+
+**What are the chances?!** Did you ever see someone from your school on holiday
+and everyone completely lost their shit? Seemingly understandably - what are the chances
+of seeing that person that I know from England here in this exact location here in Turkey
+at this exact time? Very low. But that's not what happened - you're seeing _someone_ one of
+you has met before. When the sample size is large, extraordinary outcomes
+are likely to occur purely by chance. You're bound to bump into someone that you know.
+Especially given that people you know read the same things, talk to the same people,
+work in the same industries, send their kids to the same schools, etc. as you. There are only
+so many popular destinations, recommended hotels within those locations, and conveniant
+weeks to go to those locations. So, Mum, what are the chances? Quite high, actually.
+
+**It can't be luck.** The chances of my flipping 5 heads in a row right now is very low.
+If I bet you £30 that I can, and then proceed to do so, it's very likely that I have
+skill in flipping heads. But if you ask XXX number of people to do this, someone is
+likely to flip 5 heads in a row just by chance. Or a real-world manifestation: if
+500 companies are betting on which companies will succeed or not, a few of them are likely
+to make good predictions over an extended period of time...just by pure luck.
+
+**P-hacking.** When people are conducting experiments, they are often concerned about whether
+their results were just pure chance, or if some type of significant effect present that
+altered the outcome. If your experiment is correctly designed, this statistical significance
+is easy to calculate. But what if I do several experiments? Let's say a p-value (just a way
+of measuring statistical significance CHECK/LINK) indicates that there is a 5% chance the
+results would occur by pure chance. Now what happens if I do the experiment >20 times? It's
+likely I would get these results by luck, even though a true effect is not present. You may not
+think this is a problem but consider 1) "scientists" are massively incentivised to produce
+significant results so that they can publish those results and 2) there are loaaaads of experiments
+and studies going on all the time LINK TO YT VIDEO.
+
+### What conditioner do you use?
+
+_Note: awareness of conditional probability required here. Skip at wil._
+
+Consider the sighting of the holiday friend again. This is also an error of _conditioning on the wrong thing_.
+
+My Mum was considering the probability of seeing *one exact person*, not conditioning on anything:
+
+P(Seeing Person X) = 1/population of planet Earth --> veeeeeeery small
+
+She wasn't taking into the fact that this person was very similar:
+
+P(SPX | that someone is a very similar person) --> a loooooot higher
+
+Or that she would have a similar reaction to anyone we knew. Which is 1 - the probability
+of not seeing any of those people:
+
+1- [(1 - P(SPX | ...)) * (1 - P(SPY | ...)) ...]
+
+Which I would posit CHECK is greater than 0.5. Mum was conditioning on the wrong thing.
+
+People make this type of error all the time. The other classic (and by classic I mean
+makes me pull my hair out, hence my lack of said hair) is "more likely to" QUOTE!!! "facts".
+
+"You're more likely to be struck by lighting than be eaten by a shark."
+
+Apparently this is a FACT.
+
+And it is in some sense: more people **globally** per year get hit by lighting than eaten by a shark.
+But this is a misleading, pointless, dangerous tidbit that doesn't explain anything and has no value
+except for people to offer a "fun fact" when they need one.
+
+Because it entirely depends on what circumstances you find yourself in. If I go swimming off the coast of South
+Africa every day, my chances of shark attack go up substantially. Or they might change if I'm an
+SOMEONE THAT INVESTIGATES LIGHTNING.
+
+### Behave!
+
+This is a relatively technical point. Some (relativity) high-level shit. So if you understand this
+you'll be more statistically aware than like 90% of the general pop. And probably more (suitably)
+skeptical than 90% of the pop that uses data.
+
+As awlays, due to lack of iamgination, let's re-consider a previous example: flipping lots of coins.
+Recall we could be very certain (in probability) of characterisitcs of our coin-flip experiment. We knew
+five heads was unlikely, for example. Why do we know this?
+
+Firstly it's becasue the distribution of outcomes is easy to work with. It is TECHNICAL TERMINAOLOGY ALERT
+bounded, with finite mean and variance LINKS. These are nice properties that are handy to have when
+performing probabilistic calculations.
+
+Implicit in this calculation also is the idea that the coin will not change in its distributuion of outcomes.
+If we changed the coin for one that had heads on both sides, the chances of flipping head 5 times in a row changes
+quite a bit.
+
 
 
 
