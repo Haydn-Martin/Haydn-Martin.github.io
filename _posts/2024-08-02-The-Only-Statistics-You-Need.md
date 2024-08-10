@@ -36,9 +36,9 @@ axes: magnifying axes to increase the perceived effect size and shrinking them t
 
 Something like this:
 
-![img.png](img.png)
+<img alt="Huge Spike in Average Home Prices" src="misleading_chart.png"/>
 
-_Source: https://www.ck12.org/c/statistics/misleading-graphs-identify-misleading-statistics/lesson/Identification-of-Misleading-Statistics/_
+_[Source](https://www.ck12.org/c/statistics/misleading-graphs-identify-misleading-statistics/lesson/Identification-of-Misleading-Statistics/)_
 
 Apparently there is a "Huge Spike" - but is 250000 to 252000 really huge?
 It certainly looks big. But look at the y-axis! It's been truncated such that the max is 252000
