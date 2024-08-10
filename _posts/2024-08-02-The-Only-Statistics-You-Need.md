@@ -36,7 +36,7 @@ axes: magnifying axes to increase the perceived effect size and shrinking them t
 
 Something like this:
 
-<img alt="Huge Spike in Average Home Prices" src="misleading_chart.png"/>
+<img alt="Huge Spike in Average Home Prices" src="misleading_chart.png" width="500">
 
 _[Source](https://www.ck12.org/c/statistics/misleading-graphs-identify-misleading-statistics/lesson/Identification-of-Misleading-Statistics/)_
 
