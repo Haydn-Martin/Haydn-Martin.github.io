@@ -1,4 +1,4 @@
-# Title
+# 90% of Statistical Errors
 
 Most people don't need to know statistics.
 
@@ -9,7 +9,7 @@ The world would be a very boring place if everyone knew what Markov's inequality
 But everyone could do with a basic understanding of the most-common statistical traps.
 Understanding of these will have practical consequences for you in every-day life.
 
-Luckily, there aren't that many, and they aren't that hard to understand.
+Luckily, there aren't that many, and they aren't that hard to grasp.
 
 ### What do the numbers actually say?
 
@@ -26,7 +26,7 @@ Headline --> EATING RASPBERRIES INCREASES THE CHANCES OF THUMB CANCER BY 10%. Le
 Ok. Fine. I never liked my thumbs that much anyway. But as we read on we discover that this type of
 berry consumption increases our chances from 0.000001% to 0.0000011%. So the headline is technically
 correct but kind of misleading. Or let's say this study was conducted on left-handed, 65-year-old women.
-I would quit like to know that before declaring war on raspberries. Ignore the headline and try and focus on
+I would quite like to know that before declaring war on raspberries. Ignore the headline and try and focus on
 the data in raw form.
 
 Visualisations --> people choose the timeline, axes, colours, etc. to best sell whatever it is they are trying
@@ -40,9 +40,9 @@ Something like this:
 
 _Source: https://www.ck12.org/c/statistics/misleading-graphs-identify-misleading-statistics/lesson/Identification-of-Misleading-Statistics/_
 
-Wait, what did we learn about headlines? Apparently there is a "Huge Spike" - but is 250000 to 252000 really huge?
-Looking at the chart, it certainly looks big. But look at the y-axis! It's been truncated such that the max is 252000
-and the min is 249000. Bastards. You can make any difference appear large by using this trick.
+Apparently there is a "Huge Spike" - but is 250000 to 252000 really huge?
+It certainly looks big. But look at the y-axis! It's been truncated such that the max is 252000
+and the min is 249000. You can make any difference appear large by using this trick.
 
 Numbers --> issues with numbers stated in the actual text are less obvious. The violations are harder to spot.
 You usually have to ask yourself more nuanced questions such as where did the data come from? Does this apply to
@@ -66,29 +66,29 @@ We can explain using a weird hypothetical experiment.
 Imagine your friend tells you that he ate a raw onion before bed last night and he slept like a baby - will
 you sleep well if you do the same? We don't know. There are a whole host of explanations other than
 onions cause good sleep. If he has been doing this for 20 years, with many different periods of eating and
-non-eating, with precise ways to measure sleep quality, and significant differences in sleep every time, I might
-be more inclined to believe him. Similarly, if this was the whole world doing this experiment and relaying the
-same result, I might be more inclined to draw the same conclusion.
+non-eating, with precise ways to measure sleep quality I might
+be more inclined to believe him. Similarly, if everyone on Earth did this experiment and slept well,
+I might be more inclined to draw the same conclusion.
 
 That's the idea of sample size. We have some [statistical definitions](https://en.wikipedia.org/wiki/Statistical_significance)
 of what results are "significant" and how
 many samples should be observed (for some things), but the general point is to be aware of how many samples/observations
-are being used to make conclusions.
+are being used.
 
 ### Just because two things happened at a similar time, doesn't mean that they are in any way related
 
 Not much explanation required here. I'll just list some random examples for fun:
 
 - Lucky socks and passing exams
-- Blowing on dice and winning DICE GAME
-- Playing the left back higher up the pitch and going on a win-streak
-- The position of Jupiter's moons at birth and your level of conscientiousness
-- The price of Barclays Bank PLC and WTI Crude
-- Increase in sales in H2 after a marketing campaign
-- Economic boom under Prime Minister Y
+- Blowing on dice and winning craps
+- Playing the left back higher up the pitch and going on a win streak
+- The position of Jupiter's moons when you were born and your level of conscientiousness
+- The price of Barclays Bank PLC and WTI Crude Oil
+- Increase in sales in H2 after a digital marketing campaign
+- Economic boom under Prime Minister X
 
-Statisticians call this lesson _correlation is not causation_. Meaning that even if the level of two things moves in
-some way in conjunction with one another, this does not necessarily imply that one is in any way causing the other.
+Statisticians call this lesson _correlation is not causation_. Meaning that even if two things move in
+conjunction with one another, this does not necessarily imply that one is in any way causing the other.
 
 ### Someone has to win
 
@@ -116,7 +116,7 @@ More on this later.)
 **It can't be luck.** The chances of my flipping 5 heads in a row right now is very low.
 If I bet you £30 that I can, and then proceed to do so, it's very likely that I have
 skill in flipping heads (on this occasion skill being a biased coin).
-But if you ask XXX CALCULATE number of people to do this, someone is
+But if you ask >16 people to do this, someone is
 likely to flip 5 heads in a row just by chance. Or a real-world manifestation: if
 500 companies are betting on which companies will succeed or not, a few of them are likely
 to make good predictions over an extended period of time...just by pure luck.
@@ -126,9 +126,9 @@ their results occurred by pure chance, or if some type of significant effect
 altered the outcome. If your experiment is well-designed, this statistical significance
 is easy to calculate. But what if I do several experiments? My p-value (just a way
 of measuring statistical significance) indicates that there is a 5% chance the
-results would occur by pure chance. Now what happens if I do the experiment >20 times? It's
-likely I would get a "significant" result by luck, even though a true effect is not present. You may not
-think this is a problem but [consider](https://www.youtube.com/watch?v=42QuXLucH3Q&t=1s) 1) "scientists"
+results would occur by luck (loosely speaking). Now what happens if I do the experiment >20 times? It's
+likely I would get a "significant" result, even though a true effect is not present. You may not
+think this is a problem but [consider](https://www.youtube.com/watch?v=42QuXLucH3Q&t=1s) 1) scientists
 are massively incentivised to produce
 significant results so that they can publish those results and 2) there are loaaaads of experiments
 and studies going on all the time.
@@ -138,18 +138,18 @@ and studies going on all the time.
 _Note: awareness of [conditional probability](https://en.wikipedia.org/wiki/Conditional_probability)
 required here. Skip at will._
 
-Consider the sighting of the holiday friend again. This is also an error of conditioning on the wrong thing.
+Consider the sighting of the holiday friend again.
 
 My Mum was considering the probability of seeing one exact person, not conditioning on anything:
 
 P(Seeing Person X) = 1/population of planet Earth --> veeeeeeery small
 
-Hence her shock. She wasn't taking into the fact that this person was very similar:
+Hence her shock. She wasn't taking into account the fact that this person was very similar:
 
 P(SPX | X is a very similar person) --> a loooooot higher
 
-Or that she would have a similar reaction to anyone we knew. Which is 1 - the probability
-of not seeing any of those people:
+Or that she would have a similar reaction to anyone we knew (which is 1 - the probability
+of not seeing any of those people):
 
 1- [(1 - P(SPX | X is a  very similar person)) * (1 - P(SPY | Y is a very similar person)) * ...]
 
@@ -158,17 +158,16 @@ With 100 people where P(SPX) = 0.01, the chance of seeing someone is over 60%.
 People make this type of error all the time. The other classic (and by classic I mean
 makes me pull my hair out, hence my lack of hair now) is "more likely to" "facts":
 
-"You're more likely to be struck by lighting than be eaten by a shark."
+"You're more likely to be struck by lighting than be attacked by a shark."
 
 Apparently this is a fact.
 
-And it is in some sense: it's based on the fact that more people **globally** get hit by lighting than eaten by a shark.
+And it is in some sense: it's based on the fact that more people **globally** get hit by lighting than attacked by a shark.
 But this is a misleading, pointless, dangerous tidbit that doesn't explain anything and has no value
 except as "fun fact" fodder.
 
 Because it entirely depends on what circumstances you find yourself in. If I go swimming off the coast of South
-Africa every day, my chances of shark attack go up substantially. Or they might change if I'm an
-SOMEONE THAT INVESTIGATES LIGHTNING.
+Africa every day, my chances of shark attack go up substantially.
 
 ### Behave!
 
