@@ -146,12 +146,12 @@ P(Seeing Person X) = 1/population of planet Earth --> veeeeeeery small
 
 Hence her shock. She wasn't taking into account the fact that this person was very similar:
 
-P(SPX | X is a very similar person) --> a loooooot higher
+P(SPX &#124 X is a very similar person) --> a loooooot higher
 
 Or that she would have a similar reaction to anyone we knew (which is 1 - the probability
 of not seeing any of those people):
 
-1- [(1 - P(SPX | X is a  very similar person)) * (1 - P(SPY | Y is a very similar person)) * ...]
+1- [(1 - P(SPX &#124 X is a  very similar person)) * (1 - P(SPY &#124 Y is a very similar person)) * ...]
 
 With 100 people where P(SPX) = 0.01, the chance of seeing someone is over 60%.
 
