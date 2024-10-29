@@ -12,7 +12,7 @@ to valuable actions.
 Build and maintain infrastructure, then do the things that result in
 the most valuable actions for the business.
 
-### The Wrong way to think
+### The wrong way to think
 
 People used to think that just collecting terabytes of data would magically
 transform to increased profitability for their business.
