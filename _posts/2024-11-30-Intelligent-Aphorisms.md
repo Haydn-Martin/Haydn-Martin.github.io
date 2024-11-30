@@ -1,5 +1,7 @@
 # Intelligent Aphorisms
 
+---
+
 You can’t get intelligence via gradient descent. You can’t get it by minimising loss.
 You can’t get it by optimising.
 
