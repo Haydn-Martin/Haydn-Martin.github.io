@@ -64,6 +64,7 @@ Message me when a system can get remotely close to functioning in society.
 food and drive!” That’s the easy part. Figuring out what’s worth doing, and doing it - that’s intelligence.
 Let me know when AI has dreams and can go out into the world and achieve them.
 
+---
 
 ### Selected Bibliography
 
