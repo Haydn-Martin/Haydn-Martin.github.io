@@ -56,14 +56,12 @@ We need to be free to explore.
 You’ll know when the system is intelligent when it can recognise what’s interesting,
 and does what’s interesting, contrary to instruction.
 
-It must have the ability to tell you to fuck off.
-
 ---
 
 The ultimate indicator of intelligence is winning. Doing what you want. Getting what you want out of life.
 Message me when a system can get remotely close to functioning in society.
 “But they have most of the skills to do it! They can get a remote SWE job and order
-food and drive!” That’s the easy part. Figuring out what’s worth doing, and doing it - that’s intelligence.
+food and drive!” Doing is easy. Figuring out what’s worth doing, and doing it - that’s intelligence.
 Let me know when AI has dreams and can go out into the world and achieve them.
 
 ---
