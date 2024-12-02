@@ -23,7 +23,7 @@ do their evil bidding.
 There are some common places that these techniques are deployed:
 
 Headline --> EATING RASPBERRIES INCREASES THE CHANCES OF THUMB CANCER BY 10%. Let's say this is true.
-Ok. Fine. I never liked my thumbs that much anyway. But as we read on we discover that this type of
+Ok. Fine. I never liked my thumbs that much anyway. But as we read on, we discover that this type of
 berry consumption increases our chances from 0.000001% to 0.0000011%. So the headline is technically
 correct but kind of misleading. Or let's say this study was conducted on left-handed, 65-year-old women.
 I would quite like to know that before declaring war on raspberries. Ignore the headline and try and focus on
@@ -32,17 +32,8 @@ the data in raw form.
 Visualisations --> people choose the timeline, axes, colours, etc. to best sell whatever it is they are trying
 to sell. There are many tricks here ([check out the wikipedia page!](https://en.wikipedia.org/wiki/Misleading_graph))
 but the most common is probably the choice of
-axes: magnifying axes to increase the perceived effect size and shrinking them to diminish it.
-
-Something like this:
-
-![Huge Spike in Average Home Prices](../_images/misleading_chart.png)
-
-_[Source](https://www.ck12.org/c/statistics/misleading-graphs-identify-misleading-statistics/lesson/Identification-of-Misleading-Statistics/)_
-
-Apparently there is a "Huge Spike" - but is 250000 to 252000 really huge?
-It certainly looks big. But look at the y-axis! It's been truncated such that the max is 252000
-and the min is 249000. You can make any difference appear large by using this trick.
+axes: magnifying axes to increase the perceived effect size and shrinking them to diminish it. See examples 
+[here](https://www.ck12.org/c/statistics/misleading-graphs-identify-misleading-statistics/lesson/Identification-of-Misleading-Statistics/).
 
 Numbers --> issues with numbers stated in the actual text are less obvious. The violations are harder to spot.
 You usually have to ask yourself more nuanced questions such as where did the data come from? Does this apply to
@@ -84,7 +75,7 @@ Not much explanation required here. I'll just list some random examples for fun:
 - Playing the left back higher up the pitch and going on a win streak
 - The position of Jupiter's moons when you were born and your level of conscientiousness
 - The price of Barclays Bank PLC and WTI Crude Oil
-- Increase in sales in H2 after a digital marketing campaign
+- Increase in sales in Q2 after a digital marketing campaign
 - Economic boom under Prime Minister X
 
 Statisticians call this lesson _correlation is not causation_. Meaning that even if two things move in
@@ -171,9 +162,9 @@ Africa every day, my chances of shark attack go up substantially.
 
 ### Behave!
 
-This last point is relatively technical. Some (relativity) high-level shit. If you understand this
+This last point is relatively technical. If you understand this
 you'll be more statistically aware than like 90% of the general pop. And probably more (suitably)
-skeptical than 90% of the pop that uses data.
+sceptical than 90% of the pop that uses data.
 
 Due to my lack of imagination, let's re-consider a previous example again: flipping lots of coins.
 Recall we could be very certain (in probability) of characteristics of our coin-flip experiment. We knew
