@@ -1,18 +1,29 @@
 # You Need to Know Everything
 
+"But I'm an X and I don't know anything about Y!!!"
+
+Do you really _have_ to know all of this stuff? Not really (to what extent to you
+_have_ to know anything?) It would all be professionally useful to know. But I suppose the exact
+things you should know depends on your exact role. More on that later. I think at a minimum
+everyone should know 1) where the gaps in their knowledge are and 2) to apply caution and
+know the dangers of messing around with things in areas of knowledge gaps.
+
+For example, all of this engineering ability probably isn't required for most roles.
+There are a few different things you can do within the data science space, all with
+different required skill-sets. An ML engineer might not need to know much about the business,
+but will need to have strong engineering abilities. Some data scientists
+won't need to know much about engineering. AI Researchers will be mostly focused on theory.
+
+It depends.
+
 ## Mathematics
 
-Let's leave competence aside. I just want
-to focus on what you have to _know_. But this is slightly difficult when it comes to maths.
-There's a difference between knowing a proof or mathematical relationship or rule, 
-and knowing how and why to apply them (and doing it).
-
 Where does one draw the line between mathematics required specifically to
-do data sciencey things and just basic stuff? I don't think I'd get away with complaining that
+do data sciencey things and the basics? I don't think I'd get away with complaining that
 you have to Know the rules of addition to do machine learning. That doesn't seem right.
 
 A good question to ask: what level of maths does mandatory schooling provide you with?
-Theoretically. [In the UK](https://assets.publishing.service.gov.uk/media/5a7cb5b040f0b6629523b52c/GCSE_mathematics_subject_content_and_assessment_objectives.pdf)
+[In the UK](https://assets.publishing.service.gov.uk/media/5a7cb5b040f0b6629523b52c/GCSE_mathematics_subject_content_and_assessment_objectives.pdf)
 this is basic number theory, algebra, what I would characterise as working with numbers,
 geometry, probability, and statistics. Note that there is some variance amongst countries,
 for example [students in Singapore do some linear algebra and set theory](https://www.moe.gov.sg/-/media/files/secondary/syllabuses/maths/2020-express_na-maths_syllabuses.pdf).
@@ -39,7 +50,7 @@ The most obvious place to start is statistics which is, sort of, built on the ma
 probability theory. You need to know about classical statistical techniques. Even though these
 are being super-ceded by contemporary ML, they can be still useful. Correlation, Central Limit
 Theorem, Law of Large Numbers, Maximum Likelihood Estimation, A/B testing, Linear Regression,
-Statistical Significance, Time Series Modelling, and muuuuuuch more.
+Statistical Significance, Time Series Modelling, and more.
 
 Then you have to know the theory behind classical machine learning techniques. How does
 ML work at a high level? What are the algorithms? How does gradient descent work? What are
@@ -47,13 +58,7 @@ hyperparameters and how do we optimise them? How do we measure how "good" a mode
 we ensure correct fitting?
 
 Make sure you know about the cutting-edge stuff, too. Neural networks. XGBoost. Transformers. Etc.
-Because some new way of doing things can _easily_ make your current approach suboptimal. 
-
-Footnote: do you really _have_ to know all of this stuff? Not really (to what extent to you
-_have_ to know anything?) It would all be professionally useful to know. But I suppose the exact
-things you should know depends on your exact role. More on that later. I think at a minimum
-everyone should know 1) where the gaps in their knowledge are and 2) to apply caution and
-know the dangers of messing around with things in areas of knowledge gaps.
+Because some new way of doing things can _easily_ make your current approach suboptimal.
 
 ## Engineering
 
@@ -66,7 +71,7 @@ code individual transistor operations - lots of smart people have invented ways 
 abstract these instructions so that we can input them in a way that is easier for us write.
 
 At a minimum you should know a language for building models.
-Python, R, C++, Julia, whatever. Know everything about data structures and 
+Python, R, Julia, whatever. Know everything about data structures and 
 manipulation to make data transformations easy. And the packages or wrappers for ML-specific
 functionality for these languages. Such as scikit-learn in Python, visualisation libraries,
 TensorFlow, PyTorch, JAX, etc.
@@ -87,12 +92,6 @@ This probably means hosting in a cloud provider like AWS. So knowledge of data s
 compute clusters, service maintenance, etc. is required. As is implementing checks on model
 performance and pipelines for re-training when this performance dips below a certain threshold.
 
-_To be fair, all of this engineering ability probably isn't required for most roles.
-There are a few different things you can do within the data science space, all with
-different required skill-sets. An ML engineer might not need to know much about the business,
-but will need to have strong engineering abilities. Some data scientists
-won't need to know much about engineering. AI Researchers will be mostly focused on theory._ 
-
 ## Business
 
 But you can't just use your theoretical knowledge and engineering skills to grab some data,
@@ -102,9 +101,9 @@ such intricacies. This requires specific knowledge about the subdomain you're wo
 
 And of course, there's no point in doing any of this modelling if the business doesn't care.
 
-AI must be pitched and sold and delivered continuously and consistently otherwise
-your work is going in the bin. Understanding the needs of the business and 
-catering to them. This is easier with some understanding of how the business
+AI must be [pitched and sold and delivered continuously and consistently](https://haydn-martin.github.io/2024/01/07/AI-021.html)
+otherwise your work is going in the bin. You must understand the needs of the business and 
+cater to them. This is easier with some understanding of how the business
 functions and the industry it operates in.
 
 And to least some extent you'll need to do all the things necessary to make sure that the
