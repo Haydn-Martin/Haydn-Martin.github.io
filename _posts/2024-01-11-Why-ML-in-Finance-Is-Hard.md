@@ -16,9 +16,9 @@ So we do. Let's say this model predicts what our clients should be investing in.
 Doesn't sound too hard. And let's say our model is actually quite good.
 We deploy it. Everything seems good.
 
-But problems start to occur we start to actually _use_ the model.
+But problems start to occur when we start to actually _use_ the model.
 
-Investment decisions, like many in finance, is a **high-stakes** example. Unlike Meta predicting
+Deciding what to invest in, like many in finance, is a **high-stakes** example. Unlike Meta predicting
 what ads I'll click or Spotify predicting what song I'll like, the consequences of
 failure are severe. Not just the loss of a client, a loss of lots of AUM, 
 or a severe hit to reputation. But a _real_ impact on someone's life.
@@ -39,7 +39,7 @@ aren't yet fully understood and/or difficult to interpret isn't going to sit wel
 with the regulators.
 
 And they are right to be demanding, as we are dealing with an incredibly complicated
-and complex environment. The use of **two** adjectives, which are apparently synonyms and apparently there is 
+and complex environment. The use of **two** adjectives, which are apparently synonyms, resulting in 
 redundancy in the previous sentence,
 is deliberate.
 
@@ -61,9 +61,9 @@ it might be [computationally irreducible](https://mathworld.wolfram.com/Computat
 
 Now think of the type of systems we deal with in finance. Can we predict the price of
 BP at close tomorrow? Do companies know what the interest rate on their mortgage products
-will be 6 months from now? How about their derivative positions?
+will be a year from now? How about their derivative positions?
 
-The reason we largely don't have a clue about these things is because we are operating in
+The reason we can't is because we are operating in
 a [complex](https://arxiv.org/abs/1912.05088) environment.
 
 This makes ML challenging because most algorithms work best in iid, thin-tailed, tractable, linear,
@@ -77,66 +77,53 @@ an output of a complex system.
 Another regulatory headache is the data itself.
 
 Data often contains sensitive information that should only be accessed and used in a secure way.
-No local training. No training on PII. No using GPT. Compliance are also paranoid about this.
+No local training. No training on PII. No using GPT.
 
 One thing that contributes to this is legacy systems. If the data was all in S3 with good access
 management via IAM roles and other mechanisms, this would be less of an issue. But it's not.
 Often to access this data means extraction from some type of cumbersome legacy system (that's
 costing a fortune) where data can only be extracted in some obscure format after logging on
-to a remote desktop and only 17 rows at a time. Admittedly this isn't as much of a problem in
+to a remote desktop (and only 17 rows at a time). Sure, this isn't as much of a problem in
 FinTech. But the problem persists more than you would imagine - there simply aren't many good
-modern solutions for something like a loan management system.
+modern tech solutions for much of the financial system.
 
-The data team are probably in high-demand at the organisation because of this. The data from
+The data team might be in high-demand at the organisation because of this. The data from
 a plethora of systems has to be E, T, and L'ed. This takes a lot of work, especially if you
 have to reconcile data from many different systems.
 
 And this is a problem, because you can't do ML without data. _Clean_, preferably voluminous,
 data is a pre-requisite. Hence a substantial amount of data infrastructure work is required before you can get to ML.
 
-And this work is likely to be ongoing as the board decides wisely that an acquisition makes financial
-sense on paper and so decides to purchase company X without fully comprehending the amount
-of work it's going to take to fully integrate company X and what projects are going to be
-sidelined as a result of buying X. At smaller companies, the threat of ML people being
-re-assigned to existential data projects is always there.
-
 ### Humans
 
-I rib the board (and ExCo) but they are in some ways in a tough position.
-
-Their expertise is in finance, not technology. It can be quite hard to
-communicate what AI is and the benefits of implementing it.
-
-Everyone has pre-conceived notions. Which are usually at-best
-overly-dimensionally-reduced and at-worst plainly-incorrect.
+It can be quite hard to
+communicate what AI is and the benefits of implementing it. 
+Everyone has pre-conceived notions.
 
 _I'm going to have to do some departmental stereotyping here so please 1) forgive me 2)
 know that this is tongue-in-cheek 3) don't [take it personally](https://www.youtube.com/watch?v=2t4RVg_Yq2g&ab_channel=BloopersTV) 4)
 this is not representative
 of everyone who holds these positions and 5) the views expressed below do not necessarily reflect
-the views of my employer or my Mum and Dad._
+the views of my employer or my future or past employers or my Mum and Dad._
 
-The CEO/CTO see it as a new toy to play with. Something they can brag about to other ExCo friends,
-something they can put in shareholder or investor presentations.
-
-SWEs see it as just another API call. They think in
-engineering ways. They are accustomed to data + rules = output,
-not data + output = rules.
+SWEs see it as just another API call. They (rightly) think in
+engineering ways. They are accustomed to _data + rules = output_,
+not _data + output = rules_.
 They sometimes lack the in-depth or statistical
-understanding of these systems and so can sometimes want to use them in naive ways
+understanding of these systems and so can sometimes want to use them in slightly naive ways.
 
-The data team can be just as bad. To them, ML is just a notebook used to try out a few
-models using Sklearn until one has precision of over 85%. Done. Project complete.
-And this is fine for ad-hoc analysis.
-But what data people often fail to realise is the sheer amount of ex-model components, development steps,
+The data team can be just as bad. To some analysts, ML is just a notebook used to try out a few
+models using Sklearn until one has precision of over 85%.
+This is fine for ad-hoc analysis.
+But what data people sometimes fail to realise is the sheer amount of ex-model components, development steps,
 and monitoring and testing requirements that are needed to actually _deploy_ a model. Let alone
 what it takes to build an ML _system_.
 
+ML/AI teams are often trapped between these two slightly-wrong conceptions.
+
 This confusion adds to the fact that financial institutions, more it seems than other companies in other industries, are 
-constantly pulled in different directions by departments that all seem to simultaneously 
-believe they should be running the company. Risk want to take no risks. Compliance want everything
-documented and done slowly are carefully. Engineering want to build cool stuff. Data want to analyse
+constantly pulled in different directions by departments. Risk want to take no risks. Compliance want everything
+documented and done slowly are carefully. Engineering want to build software. Data want to analyse
 everything before and after decisions are made. Finance want to maximise expected revenue next quarter.
 
-What's difficult is that they are all kind of right.
-
+What's difficult is that they are all doing their jobs and are all kind of right.
