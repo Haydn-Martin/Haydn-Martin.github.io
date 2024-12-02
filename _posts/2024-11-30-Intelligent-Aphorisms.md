@@ -61,7 +61,7 @@ and does what’s interesting, contrary to instruction.
 The ultimate indicator of intelligence is winning. Doing what you want. Getting what you want out of life.
 Message me when a system can get remotely close to functioning in society.
 “But they have most of the skills to do it! They can get a remote SWE job and order
-food and drive!” Doing is easy. Figuring out what’s worth doing, and doing it - that’s intelligence.
+food and drive!” Doing is easy. Figuring out what’s worth doing - that’s intelligence.
 Let me know when AI has dreams and can go out into the world and achieve them.
 
 ---
