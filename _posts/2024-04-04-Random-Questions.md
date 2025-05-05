@@ -79,7 +79,7 @@ Although note again the asymmetry: if something is non-predictable,
 it might not be random.
 
 An example is any process that Steven Wolfram has dubbed [computationally irreducible](https://mathworld.wolfram.com/ComputationalIrreducibility.html).
-To figure out the output at time t, you need to "run" the "programme" until time t. There's
+To figure out the output at time t, you need to run the program until time t. There's
 no other way of knowing/predicting what the output will be otherwise. Sounds like randomness, right?
 But it's not - these processes are often based on simple deterministic rules.
 
