@@ -72,7 +72,7 @@ data, or not use ML at all.
 
 ### Platform
 
-I can be hard to justify committing resources to work on platform issues given the potential tech debt 
+It can be hard to justify committing resources to work on platform issues given the potential tech debt 
 work required to re-build/improve current infrastructure. People can be reluctant to introduce new components
 to these systems.
 
