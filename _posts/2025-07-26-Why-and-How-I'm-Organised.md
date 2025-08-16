@@ -106,9 +106,9 @@ Sure, after all this, you may still need to interrupt and ask.
 
 If you do that, the question better be good. Good:
 
-1) You've searched/read the internal material
-2) You've searched/read the public material
-3) You've tried some things/experiments already
-4) You have an idea/a proposal of what to do
-5) All the above (with context) is included in your question
-6) The question is posted publicly
+1. You've searched/read the internal material
+2. You've searched/read the public material
+3. You've tried some things/experiments already
+4. You have an idea/a proposal of what to do
+5. All the above (with context) is included in your question
+6. The question is posted publicly
