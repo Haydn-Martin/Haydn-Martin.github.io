@@ -22,7 +22,7 @@ within the data echo system.
 The first is by imagining data work as a sort of [stack](https://www.fivetran.com/blog/data-engineer-vs-data-scientist),
 with each layer being dependent on the preceding layer.
 
-![Data Work Stack](/_images/data_work_stack.png)
+![Data Work Stack](/images/data_work_stack.png)
 
 This is useful because different nominal roles often overlap in terms of the work that they do,
 and hence the skills required to do that work.
