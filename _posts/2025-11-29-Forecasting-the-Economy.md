@@ -120,8 +120,8 @@ And then also think about how much these forecasts change.
 As in whole economic outlooks [transforming](https://www.youtube.com/watch?v=veBvN1GsD9k)
 off the back of minor policy changes.
 
-Many forecasters have questionable incentives.
-They're probably inclined to complicate _what_ they're doing and _why_ because they're trying to
+This might be something to do with some questionable incentives.
+Forecasters are probably inclined to complicate _what_ they're doing and _why_ because they're trying to
 impress their boss, because that's how it's always been done, because they're trying to sell a product, etc.
 
 They also have weak [skin in the game](https://en.wikipedia.org/wiki/Skin_in_the_game).
