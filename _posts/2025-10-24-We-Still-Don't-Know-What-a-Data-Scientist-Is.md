@@ -24,13 +24,12 @@ with each layer being dependent on the preceding layer.
 
 ![Data Work Stack](/images/data_work_stack.png)
 
-This is useful because different nominal roles often overlap in terms of the work that they do,
-and hence the skills required to do that work.
+This makes sense. You can't do data science without data. And you probably shouldn't do it
+without some basic monitoring and analysis first, either.
 
-But this fails, too. Because the skills required to do the role change 
-very much depending on the business needs, the team, the project, even the individual task.
-A data scientist might conceivably be researching a certain algorithm one day and 
-building a data pipeline the next.
+But this view is biased towards larger organisations, in which people perform specific roles.
+You can't apply this description across organisational size. If you're at a small company, or in a small team,
+you're going to end up doing all manner of engineering and other data tasks.
 
 ### Data science defined by skills
 
