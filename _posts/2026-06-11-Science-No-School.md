@@ -72,7 +72,7 @@ We’re not really sure.
 The way I think about these Schools is to what extent their proponents believe the
 economy should be run by _markets_ vs. _people_:
 
-![Schools of Thought](/images/schools_of_thought.png)
+![Schools of Thought](/images/shools_of_thought.png)
 
 ### The Modern Synthesis
 
