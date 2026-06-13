@@ -14,7 +14,7 @@ And yet no one seems able to agree on the right answers.
 
 Why?
 
-### I'm A Newtonian
+### Going to School
 
 Dismal, yes. Science? Not quite.
 
@@ -32,22 +32,15 @@ We cannot deduce the consequences of changing the economic model, nor
 falsify these consequences even if we had them.
 
 What we're left with a messy collection of theories, data, statistics,
-politics (the subject itself used to be known as political economy), and
-ethics. Acolytes and iconoclasts. And dogma.
+econometrics, politics (the subject itself used to be known as political
+economy), and ethics.
 
-And unlike the science you learned in a
-classroom-laboratory at school - in which there is a logical chain of theory
-superseded by the next theory - in Economics,
-we have _schools of thought_. These divergent schools all have
+In Economics, _schools of thought_ are more important than in
+ natural science. These divergent schools all have
 serious intellectual backing and real-world implementations.
 
-And yet we can't seem to agree which ones are valid.
-It would be as if physicists still couldn't rule out, or at least had to seriously contend
-with proponents of Newton's physics, rather than Einstein's.
-Doesn't that sound exhausting?
-
-When discussing economics _today_, not just the history of economics, one
-should be aware of the (main) schools of thought. So then here's a quick summary of The Schools
+When discussing economics _today_, it's useful to 
+be aware of the (main) schools of thought. So then here's a quick summary of The Schools
 and what they arose as a response to/in the context of:
 
 - **Classical Economics**: market co-ordination via the Smithian invisible hand.
@@ -90,25 +83,27 @@ Historically it implies that economies should largely be run
 by markets, that rational actors + supply-demand will bring us to
 market equilibrium.
 
-But modern economists implicitly argue that because NE gives us a detailed,
+But some modern economists sort of implicitly argue that because NE gives us a detailed,
 mathematical comprehension of markets and the economy, we have the power to press
-certain economic buttons to _guide_ the economy to where we want it to go.
+certain economic buttons to _guide_ the economy to where we want it to go, even
+if these models are approximations.
 If markets really are governed by price elasticity, supply curves, etc., really are
 just rational agents maximising expected utility, then tweaking variables in
 the equations that describe these markets can, will lead to outcomes that can
-be understood and planned _a priori_. And because these markets scale and aggregate
+be understood. And because these markets scale and aggregate
 all the way up, we can press these magic buttons at any level we want. Like e.g. the economy; 
 as in the whole economy can be defined by an equation,
 [literally](https://www.easternct.edu/mathematical-sciences/_documents/Economics-Formulas-2.pdf):
 
 _Y = C + I + G + (X - M)_
 
-And that's how we get the version of economics
-at governments, central banks, and economics departments today. This Keynesian-Neoclassical
+The Keynesian-Neoclassical
 combo that logically mandates intervention to "fix" the economy
 whenever inflation is too high/low, when the GDP line is not steep enough,
-or when employment is less than 99%. Hence interest rate setting, quantitative easing,
-money printing, taxation, budgeting everything,
+or when employment is less than 99%. Hence interest rate setting, 
+[interest rate expectations](https://www.bankofengland.co.uk/explainers/current-interest-rate),
+quantitative easing,
+money printing, budgeting everything,
 [economic forecasts](https://haydn-martin.github.io/2025/11/29/Forecasting-the-Economy.html),
-borrowing, more borrowing,
-and a whole bunch of other policies based on NE models.
+borrowing, and more borrowing. Although, yes, there are other factors and
+models influencing these decisions.
