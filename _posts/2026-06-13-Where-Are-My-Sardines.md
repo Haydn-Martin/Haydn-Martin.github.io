@@ -36,7 +36,7 @@ Economics, again.
 
 To explain the modern world, you need economics.
 
-## All You Need to Know
+### All You Need to Know
 
 First of all, you may ask yourself why we even need money in the first place. If I have
 a bit of wood and you have some steel, why can't we just swap these? No need for the economy.
